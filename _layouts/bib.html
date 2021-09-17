@@ -4,7 +4,7 @@
 <div class="row">
   <div class="col-sm-3">
     {% if entry.abbr %}
-      <img class="img-fluid" src="{{ site.data.teasers[entry.abbr] | prepend: '/assets/teasers/' | relative_url }}">
+      <img class="img-fluid" src="{{site.data.teasers[entry.abbr] | prepend: '/assets/teasers/' | relative_url }}">
     {% endif %}
     </div>
 
@@ -71,6 +71,9 @@
       {% endif %}
       {% if entry.year %}
         {{entry.year}}
+      {% endif %}
+      {% if entry.note %}
+        {{entry.note}}
       {% endif %}
       </div>
     {% endif %}
