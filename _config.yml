@@ -10,7 +10,7 @@ email: yuxiangcui@zju.edu.cn
 description: # > # the ">" symbol means to ignore newlines until "footer_text:"
   Zhejiang University
 footer_text: # >
-  Hi!!!!
+  Hello from YuxiangCui
 
 icon: 🔥 # the emoji used as the favicon
 url:  # the base hostname & protocol for your site
@@ -51,7 +51,7 @@ github_username: YuxiangCui # your GitHub user name
 gitlab_username: # your GitLab user name
 twitter_username: # your Twitter handle
 linkedin_username: # your LinkedIn user name
-scholar_userid: # your Google Scholar ID
+scholar_userid: Yuxiang Cui # your Google Scholar ID
 orcid_id: # your ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username
@@ -74,7 +74,7 @@ panelbear_analytics: # XXXXXXXXX # panelbear analytics site ID
 # -----------------------------------------------------------------------------
 
 blog_name: YuxiangCui  # your blog must have a name for it to show up in the nav bar
-blog_description: Hellow from YuxiangCui
+blog_description: Hello from YuxiangCui
 permalink: /blog/:year/:title/
 
 # Pagination
