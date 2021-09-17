@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-description: Beginner in Mobile Robots
+description: Graduate Student | Department of Control Science and Engineering | Robotics Lab 
 
 profile:
   align: right
