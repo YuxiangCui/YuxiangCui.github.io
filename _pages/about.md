@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-description: Graduate Student | Department of Control Science and Engineering | Robotics Lab 
+description: Graduate Student | Robotics Lab | Department of Control Science and Engineering | Zhejiang University 
 
 profile:
   align: right
