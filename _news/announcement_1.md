@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2021-03-01 00:00:00-0400
 inline: true
 ---
 
-A simple inline announcement.
+One ICRA paper accepted: "Learning World Transition Model for Socially Aware Robot Navigation".
