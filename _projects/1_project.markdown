@@ -1,7 +1,7 @@
 ---
 layout: page
-title: ICRA 2021
-description: Learning World Transition Model for Socially Aware Robot Navigation
+title: Learning World Transition Model for Socially Aware Robot Navigation
+description: ICRA 2021
 img: /assets/img/ICRA2021/framework.png
 importance: 1
 category: work
@@ -57,18 +57,6 @@ category: work
 <center>
 <table>
     <tr>
-        <td ><center><img src="{{ site.baseurl }}/assets/img/ICRA2021/comparison_curves_ver.png" width="400" height="600" data-zoomable> Training Curves </center></td>
-        <td ><center><img src="{{ site.baseurl }}/assets/img/ICRA2021/experiments.png" width="400" height="600" data-zoomable> Real Robot Experiments </center></td>
-    </tr>
-</table>
-</center>
-<div class="caption">
-   Experiments
-</div>
-
-<center>
-<table>
-    <tr>
         <td ><center><img src="{{ site.baseurl }}/assets/img/ICRA2021/prediction_list.png" width="200" height="100" data-zoomable> prediction_list </center></td>
         <td ><center><img src="{{ site.baseurl }}/assets/img/ICRA2021/prediction_ours.png" width="200" height="100" data-zoomable> prediction_ours </center></td>
         <td ><center><img src="{{ site.baseurl }}/assets/img/ICRA2021/prediction_label.png" width="200" height="100" data-zoomable> prediction_label </center></td>
@@ -82,6 +70,18 @@ category: work
 </center>
 <div class="caption">
    Prediction
+</div>
+
+<center>
+<table>
+    <tr>
+        <td ><center><img src="{{ site.baseurl }}/assets/img/ICRA2021/comparison_curves_ver.png" width="400" height="600" data-zoomable> Training Curves </center></td>
+        <td ><center><img src="{{ site.baseurl }}/assets/img/ICRA2021/experiments.png" width="400" height="600" data-zoomable> Real Robot Experiments </center></td>
+    </tr>
+</table>
+</center>
+<div class="caption">
+   Experiments
 </div>
 
 
