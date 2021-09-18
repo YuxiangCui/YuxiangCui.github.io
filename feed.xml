@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-09-18T17:02:52+00:00</updated><id>/feed.xml</id><title type="html">blank</title><subtitle>Zhejiang University</subtitle><entry><title type="html">ICRA 2021 – Learning World Transition Model for Socially Aware Robot Navigation</title><link href="/blog/2015/ICRA2021/" rel="alternate" type="text/html" title="ICRA 2021 – Learning World Transition Model for Socially Aware Robot Navigation" /><published>2015-05-15T21:01:00+00:00</published><updated>2015-05-15T21:01:00+00:00</updated><id>/blog/2015/ICRA2021</id><content type="html" xml:base="/blog/2015/ICRA2021/">&lt;h2 id=&quot;abstract&quot;&gt;Abstract&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Moving in dynamic pedestrian environments is one of the important requirements for autonomous mobile robots. We present a model-based reinforcement learning approach for robots to navigate through crowded environments. The navigation policy is trained with both real interaction data from multi-agent simulation and virtual data from a deep transition model that predicts the evolution of surrounding dynamics of mobile robots. A reward function considering social conventions is designed to guide the training of the policy. Specifically, the policy model takes laser scan sequence and robot’s own state as input and outputs steering command. The laser sequence is further transformed into stacked local obstacle maps disentangled from robot’s ego motion to separate the static and dynamic obstacles, simplifying the model training. We observe that the policy using our method can be trained with significantly less real interaction data in simulator but achieve similar level of success rate in social navigation tasks compared with other methods. Experiments are conducted in multiple social scenarios both in simulation and on real robots, the learned policy can guide the robots to the final targets successfully in a socially compliant manner.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;center&gt;
+&lt;table&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;center&gt;&lt;img src=&quot;/assets/img/ICRA2021/first.png&quot; width=&quot;800&quot; height=&quot;582&quot; data-zoomable=&quot;&quot; /&gt;&lt;/center&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;
+&lt;div class=&quot;caption&quot;&gt;
+   Comparison
+&lt;/div&gt;
+&lt;/center&gt;
+
+&lt;center&gt;
+&lt;table&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;center&gt;&lt;img src=&quot;/assets/img/ICRA2021/framework.png&quot; width=&quot;800&quot; height=&quot;414&quot; data-zoomable=&quot;&quot; /&gt;&lt;/center&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;
+&lt;div class=&quot;caption&quot;&gt;
+   Framework
+&lt;/div&gt;
+&lt;/center&gt;
+
+&lt;center&gt;
+&lt;table&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;center&gt;&lt;img src=&quot;/assets/img/ICRA2021/transition_model.png&quot; width=&quot;800&quot; height=&quot;234&quot; data-zoomable=&quot;&quot; /&gt;&lt;/center&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;
+&lt;div class=&quot;caption&quot;&gt;
+   Transition Model
+&lt;/div&gt;
+&lt;/center&gt;
+
+&lt;center&gt;
+&lt;table&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;center&gt;&lt;img src=&quot;/assets/img/ICRA2021/ac_model.png&quot; width=&quot;600&quot; height=&quot;290&quot; data-zoomable=&quot;&quot; /&gt;&lt;/center&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;
+&lt;/center&gt;
+&lt;div class=&quot;caption&quot;&gt;
+   Policy Model
+&lt;/div&gt;
+
+&lt;center&gt;
+&lt;table&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;center&gt;&lt;img src=&quot;/assets/img/ICRA2021/prediction_list.png&quot; width=&quot;200&quot; height=&quot;100&quot; data-zoomable=&quot;&quot; /&gt; prediction_list &lt;/center&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;center&gt;&lt;img src=&quot;/assets/img/ICRA2021/prediction_ours.png&quot; width=&quot;200&quot; height=&quot;100&quot; data-zoomable=&quot;&quot; /&gt; prediction_ours &lt;/center&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;center&gt;&lt;img src=&quot;/assets/img/ICRA2021/prediction_label.png&quot; width=&quot;200&quot; height=&quot;100&quot; data-zoomable=&quot;&quot; /&gt; prediction_label &lt;/center&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;center&gt;&lt;img src=&quot;/assets/img/ICRA2021/prediction_list_2.png&quot; width=&quot;200&quot; height=&quot;100&quot; data-zoomable=&quot;&quot; /&gt; prediction_list_2 &lt;/center&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;center&gt;&lt;img src=&quot;/assets/img/ICRA2021/prediction_ours_2.png&quot; width=&quot;200&quot; height=&quot;100&quot; data-zoomable=&quot;&quot; /&gt; prediction_ours_2 &lt;/center&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;center&gt;&lt;img src=&quot;/assets/img/ICRA2021/prediction_label_2.png&quot; width=&quot;200&quot; height=&quot;100&quot; data-zoomable=&quot;&quot; /&gt; prediction_label_2 &lt;/center&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;
+&lt;/center&gt;
+&lt;div class=&quot;caption&quot;&gt;
+   Prediction
+&lt;/div&gt;
+
+&lt;center&gt;
+&lt;table&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;center&gt;&lt;img src=&quot;/assets/img/ICRA2021/comparison_curves_ver.png&quot; width=&quot;400&quot; height=&quot;600&quot; data-zoomable=&quot;&quot; /&gt; Training Curves &lt;/center&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;center&gt;&lt;img src=&quot;/assets/img/ICRA2021/experiments.png&quot; width=&quot;400&quot; height=&quot;600&quot; data-zoomable=&quot;&quot; /&gt; Real Robot Experiments &lt;/center&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;
+&lt;/center&gt;
+&lt;div class=&quot;caption&quot;&gt;
+   Experiments
+&lt;/div&gt;</content><author><name></name></author><summary type="html">Abstract Moving in dynamic pedestrian environments is one of the important requirements for autonomous mobile robots. We present a model-based reinforcement learning approach for robots to navigate through crowded environments. The navigation policy is trained with both real interaction data from multi-agent simulation and virtual data from a deep transition model that predicts the evolution of surrounding dynamics of mobile robots. A reward function considering social conventions is designed to guide the training of the policy. Specifically, the policy model takes laser scan sequence and robot’s own state as input and outputs steering command. The laser sequence is further transformed into stacked local obstacle maps disentangled from robot’s ego motion to separate the static and dynamic obstacles, simplifying the model training. We observe that the policy using our method can be trained with significantly less real interaction data in simulator but achieve similar level of success rate in social navigation tasks compared with other methods. Experiments are conducted in multiple social scenarios both in simulation and on real robots, the learned policy can guide the robots to the final targets successfully in a socially compliant manner.</summary></entry></feed>
