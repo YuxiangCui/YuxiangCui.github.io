@@ -24,6 +24,7 @@ pagination:
   <ul class="post-list">
     {% for post in paginator.posts %}
       <li>
+        <img class="img-fluid" src="{{ site.baseurl }}{post.img}">
         <h3><a class="post-title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
         <p class="post-meta">{{ post.date | date: '%B %-d, %Y' }}</p>
         <p>{{ post.description }}</p>
