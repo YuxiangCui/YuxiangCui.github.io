@@ -38,11 +38,13 @@ category: work
    Transition Model
 </div>
 
+<center>
 <table>
     <tr>
         <td ><center><img src="{{ site.baseurl }}/assets/img/ICRA2021/ac_model.png" width="600" height="290" data-zoomable></center></td>
     </tr>
 </table>
+</center>
 <div class="caption">
    Policy Model
 </div>
