@@ -8,7 +8,7 @@ Learning World Transition Model for Socially Aware Robot Navigation.
 
 <div class="row">
     <div class="col">
-        <img class="img" src="{{ site.baseurl }}/assets/img/ICRA2021/framework.png" data-zoomable>
+        <img class="img" src="{{ site.baseurl }}/assets/img/ICRA2021/framework.png" width="600" height="150" data-zoomable>
     </div>
 </div>
 <div class="caption">
@@ -17,48 +17,24 @@ Learning World Transition Model for Socially Aware Robot Navigation.
 
 <div class="row">
     <div class="col">
-        <img class="img" src="{{ site.baseurl }}/assets/img/ICRA2021/transition_model.png" data-zoomable>
+        <img class="img" src="{{ site.baseurl }}/assets/img/ICRA2021/transition_model.png" width="600" height="300" data-zoomable>
     </div>
 </div>
 <div class="caption">
     Transition Model.
 </div>
 
-<div class="row">
-    <div class="col">
-        <img class="img" src="{{ site.baseurl }}/assets/img/ICRA2021/prediction_list.png" data-zoomable>
-    </div>
-    <div class="col">
-        <img class="img" src="{{ site.baseurl }}/assets/img/ICRA2021/prediction_ours.png" data-zoomable>
-    </div>
-    <div class="col">
-        <img class="img" src="{{ site.baseurl }}/assets/img/ICRA2021/prediction_label.png" data-zoomable>
-    </div>
-</div>
-<div class="row">
-    <div class="col">
-        <img class="img" src="{{ site.baseurl }}/assets/img/ICRA2021/prediction_list_2.png" data-zoomable>
-    </div>
-    <div class="col">
-        <img class="img" src="{{ site.baseurl }}/assets/img/ICRA2021/prediction_ours_2.png" data-zoomable>
-    </div>
-    <div class="col">
-        <img class="img" src="{{ site.baseurl }}/assets/img/ICRA2021/prediction_label_2.png" data-zoomable>
-    </div>
-</div>
-
-
 <table>
     <tr>
-        <td ><center><img src="{{ site.baseurl }}/assets/img/ICRA2021/prediction_list.png" > prediction_list </center></td>
-        <td ><center><img src="{{ site.baseurl }}/assets/img/ICRA2021/prediction_ours.png" > prediction_ours </center></td>
-        <td ><center><img src="{{ site.baseurl }}/assets/img/ICRA2021/prediction_label.png" > prediction_label </center></td>
+        <td ><center><img src="{{ site.baseurl }}/assets/img/ICRA2021/prediction_list.png" width="200" height="100"> prediction_list </center></td>
+        <td ><center><img src="{{ site.baseurl }}/assets/img/ICRA2021/prediction_ours.png" width="200" height="100"> prediction_ours </center></td>
+        <td ><center><img src="{{ site.baseurl }}/assets/img/ICRA2021/prediction_label.png" width="200" height="100"> prediction_label </center></td>
     </tr>
 
     <tr>
-        <td ><center><img src="{{ site.baseurl }}/assets/img/ICRA2021/prediction_list_2.png" > prediction_list_2 </center></td>
-        <td ><center><img src="{{ site.baseurl }}/assets/img/ICRA2021/prediction_ours_2.png" > prediction_ours_2 </center></td>
-        <td ><center><img src="{{ site.baseurl }}/assets/img/ICRA2021/prediction_label_2.png" > prediction_label_2 </center></td>
+        <td ><center><img src="{{ site.baseurl }}/assets/img/ICRA2021/prediction_list_2.png" width="200" height="100"> prediction_list_2 </center></td>
+        <td ><center><img src="{{ site.baseurl }}/assets/img/ICRA2021/prediction_ours_2.png" width="200" height="100"> prediction_ours_2 </center></td>
+        <td ><center><img src="{{ site.baseurl }}/assets/img/ICRA2021/prediction_label_2.png" width="200" height="100"> prediction_label_2 </center></td>
     </tr>
 </table>
 <div class="caption">
