@@ -15,6 +15,9 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
+Research Interests:
+- Multi-robot Navigation
+- Reinforcement Learning / Multi-agent Reinforcement Learning
 
 Please visit my own [Bilibili Channel](https://space.bilibili.com/362532146) for videos.
 
