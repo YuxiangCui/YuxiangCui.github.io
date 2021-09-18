@@ -75,8 +75,8 @@ category: work
 <center>
 <table>
     <tr>
-        <td ><center><img src="{{ site.baseurl }}/assets/img/ICRA2021/comparison_curves_ver.png" width="300" height="450" data-zoomable> Training Curves </center></td>
-        <td ><center><img src="{{ site.baseurl }}/assets/img/ICRA2021/experiments.png" width="300" height="450" data-zoomable> Real Robot Experiments </center></td>
+        <td ><center><img src="{{ site.baseurl }}/assets/img/ICRA2021/comparison_curves_ver.png" width="400" height="600" data-zoomable> Training Curves </center></td>
+        <td ><center><img src="{{ site.baseurl }}/assets/img/ICRA2021/experiments.png" width="400" height="600" data-zoomable> Real Robot Experiments </center></td>
     </tr>
 </table>
 </center>
