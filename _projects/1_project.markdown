@@ -7,27 +7,69 @@ importance: 1
 category: work
 ---
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+Learning World Transition Model for Socially Aware Robot Navigation.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+<div class="row">
+    <div class="col">
+        <img class="img" src="{{ site.baseurl }}/assets/img/ICRA2021/framework.png.jpg" data-zoomable>
+    </div>
+</div>
+<div class="caption">
+    Framework.
+</div>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/" target="_blank">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+<div class="row">
+    <div class="col">
+        <img class="img" src="{{ site.baseurl }}/assets/img/ICRA2021/transition_model.png" data-zoomable>
+    </div>
+</div>
+<div class="caption">
+    Transition Model.
+</div>
+
+<div class="row">
+    <div class="col">
+        <img class="img" src="{{ site.baseurl }}/assets/img/ICRA2021/prediction_list.png" data-zoomable>
+    </div>
+    <div class="col">
+        <img class="img" src="{{ site.baseurl }}/assets/img/ICRA2021/prediction_ours.png" data-zoomable>
+    </div>
+    <div class="col">
+        <img class="img" src="{{ site.baseurl }}/assets/img/ICRA2021/prediction_label.png" data-zoomable>
+    </div>
+</div>
+<div class="row">
+    <div class="col">
+        <img class="img" src="{{ site.baseurl }}/assets/img/ICRA2021/prediction_list_2.png" data-zoomable>
+    </div>
+    <div class="col">
+        <img class="img" src="{{ site.baseurl }}/assets/img/ICRA2021/prediction_ours_2.png" data-zoomable>
+    </div>
+    <div class="col">
+        <img class="img" src="{{ site.baseurl }}/assets/img/ICRA2021/prediction_label_2.png" data-zoomable>
+    </div>
+</div>
+<div class="caption">
+    Prediction.
+</div>
+
+
+- Abstract
+Moving in dynamic pedestrian environments is one of the important requirements for autonomous mobile robots. We present a model-based reinforcement learning approach for robots to navigate through crowded environments. The navigation policy is trained with both real interaction data from multi-agent simulation and virtual data from a deep transition model that predicts the evolution of surrounding dynamics of mobile robots. A reward function considering social conventions is designed to guide the training of the policy. Specifically, the policy model takes laser scan sequence and robot's own state as input and outputs steering command. The laser sequence is further transformed into stacked local obstacle maps disentangled from robot's ego motion to separate the static and dynamic obstacles, simplifying the model training. We observe that the policy using our method can be trained with significantly less real interaction data in simulator but achieve similar level of success rate in social navigation tasks compared with other methods. Experiments are conducted in multiple social scenarios both in simulation and on real robots, the learned policy can guide the robots to the final targets successfully in a socially compliant manner.
+
+
+
 
 ```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/6.jpg' | relative_url }}" alt="" title="example image"/>
+<div class="row">
+    <div class="col">
+        <img class="img" src="{{ site.baseurl }}/assets/img/ICRA2021/prediction_list_2.png" data-zoomable>
     </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/11.jpg' | relative_url }}" alt="" title="example image"/>
+    <div class="col">
+        <img class="img" src="{{ site.baseurl }}/assets/img/ICRA2021/prediction_ours_2.png" data-zoomable>
+    </div>
+    <div class="col">
+        <img class="img" src="{{ site.baseurl }}/assets/img/ICRA2021/prediction_label_2.png" data-zoomable>
     </div>
 </div>
 ```
