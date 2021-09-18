@@ -1,7 +1,7 @@
 ---
 layout: page
-title: project 1
-description: ICRA 2021 -- Learning World Transition Model for Socially Aware Robot Navigation
+title: ICRA 2021
+description: Learning World Transition Model for Socially Aware Robot Navigation
 img: /assets/img/ICRA2021/framework.png
 importance: 1
 category: work
@@ -16,21 +16,34 @@ category: work
 
 <table>
     <tr>
-        <td ><center><img src="{{ site.baseurl }}/assets/img/ICRA2021/framework.png" width="800" height="414"> prediction_list </center></td>
+        <td ><center><img src="{{ site.baseurl }}/assets/img/ICRA2021/first.png" width="800" height="582"> <b>Comparison</b> </center></td>
     </tr>
 </table>
-<div class="caption">
-    Framework.
-</div>
 
 <table>
     <tr>
-        <td ><center><img src="{{ site.baseurl }}/assets/img/ICRA2021/transition_model.png" width="800" height="234"> prediction_list </center></td>
+        <td ><center><img src="{{ site.baseurl }}/assets/img/ICRA2021/framework.png" width="800" height="414"> <b>Framework</b> </center></td>
     </tr>
 </table>
-<div class="caption">
-    Transition Model.
-</div>
+
+<table>
+    <tr>
+        <td ><center><img src="{{ site.baseurl }}/assets/img/ICRA2021/transition_model.png" width="800" height="234"> <b>Transition Model</b> </center></td>
+    </tr>
+</table>
+
+<table>
+    <tr>
+        <td ><center><img src="{{ site.baseurl }}/assets/img/ICRA2021/ac_model.png" width="600" height="290"> <b>Policy Model</b> </center></td>
+    </tr>
+</table>
+
+<table>
+    <tr>
+        <td ><center><img src="{{ site.baseurl }}/assets/img/ICRA2021/comparison_curves_ver.png" width="395" height="600"> <b>Training Curves</b> </center></td>
+        <td ><center><img src="{{ site.baseurl }}/assets/img/ICRA2021/experiments.png" width="428" height="600"> <b>Real Robot Experiments</b> </center></td>
+    </tr>
+</table>
 
 <table>
     <tr>
@@ -45,7 +58,7 @@ category: work
     </tr>
 </table>
 <div class="caption">
-    Prediction.
+   <b>Prediction</b>
 </div>
 
 
